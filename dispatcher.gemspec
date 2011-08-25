@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{stevenson}
-  s.version = "0.9.0"
+  s.name = %q{dispatcher}
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dirk Gadsden"]
@@ -19,32 +19,17 @@ Gem::Specification.new do |s|
     "README.textile",
     "Rakefile",
     "VERSION",
-    "lib/stevenson.rb",
-    "lib/stevenson/application.rb",
-    "lib/stevenson/delegator.rb",
-    "lib/stevenson/nest.rb",
-    "lib/stevenson/nests/collection.rb",
-    "lib/stevenson/page.rb",
-    "lib/stevenson/server.rb",
-    "lib/stevenson/templates.rb",
-    "stevenson.gemspec",
-    "test/about.rb",
-    "test/app.rb",
-    "test/config.ru",
-    "test/index.erb",
-    "test/index.rb",
-    "test/layouts/default.erb",
-    "test/people.erb",
-    "test/people.rb",
-    "test/people/jane.rb",
-    "test/people/jane_smith.erb",
-    "test/people/john.rb",
-    "test/people/john_smith.erb",
-    "test/public/images/barcamp.png",
-    "test/sinatra_test_app.rb",
-    "test/sinatra_test_config.ru"
+    "lib/dispatcher.rb",
+    #"lib/stevenson/application.rb",
+    #"lib/stevenson/delegator.rb",
+    #"lib/stevenson/nest.rb",
+    #"lib/stevenson/nests/collection.rb",
+    #"lib/stevenson/page.rb",
+    #"lib/stevenson/server.rb",
+    #"lib/stevenson/templates.rb",
+    "dispatcher.gemspec"
   ]
-  s.homepage = %q{http://github.com/dirk/stevenson}
+  s.homepage = %q{http://github.com/dirk/dispatcher}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
   s.summary = %q{}
