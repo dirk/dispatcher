@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+
+
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
+
+require 'dispatcher'
+
+Dispatcher.dispatch!
+
+
+# https://github.com/twilson63/chester
+# 
+# require 'chester'
+# require 'chester/command'
+# 
+# args = ARGV.dup
+# ARGV.clear
+# command = args.shift.strip rescue 'help'
+# 
+# Chester::Command.run(command, args)
